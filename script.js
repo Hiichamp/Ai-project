@@ -24,7 +24,7 @@ function wishme() {
     speak("Good Evening!");
   }
 }
-//  window.addEventListener("load", () => {  wishme(); });
+ window.addEventListener("load", () => {  wishme(); });
 
 let speechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
