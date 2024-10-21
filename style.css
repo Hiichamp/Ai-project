@@ -88,3 +88,49 @@ display: flex;
     letter-spacing: 2px;
 }
 
+@media screen and (max-width:600px) {
+    #div1{
+        width: 100%;
+height: 100%;
+background-color: black;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+display: flex;
+
+    }
+    #tony{
+        width: 250px;
+        height: 350px;
+    }
+    #Sophia{
+        color: white;
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 0.2vw;
+        font-size: 4.5vw;
+      
+    }
+    
+    #name{
+        color: rgb(113, 226, 226);
+        font-size: 4vw;
+    }
+    
+    #va{
+        color: rgb(218, 169, 218);
+        font-size: 3.3vw;
+    }
+    
+    #voice{
+        width: 
+        20vw;
+        display: none;
+    }
+    #btn{
+        width: 65%;
+        height: 15vw;
+        font-size: 3.3vw;
+        margin-top: 2vw;
+    }
+ 
+}
